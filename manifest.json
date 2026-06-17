@@ -12,8 +12,8 @@
       "name": "Boton Si No",
       "iconUrl": "https://www.gstatic.com/images/branding/product/2x/data_studio_64dp.png",
       "resource": {
-        "js": "https://TU-URL/index.js",
-        "config": "config.json"
+        "js": "https://bytefactoryblanca.github.io/boton_si_no_looker/index.js",
+        "config": "https://bytefactoryblanca.github.io/boton_si_no_looker/config.json"
       },
       "data": [
         {
