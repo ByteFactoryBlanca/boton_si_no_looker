@@ -1,0 +1,46 @@
+{
+  "name": "Boton Si No",
+  "logoUrl": "https://www.gstatic.com/images/branding/product/2x/data_studio_64dp.png",
+  "company": "Mi Empresa",
+  "companyUrl": "https://example.com",
+  "addonUrl": "https://example.com",
+  "supportUrl": "https://example.com",
+  "description": "Botón Sí/No editable",
+  "components": [
+    {
+      "id": "botonSiNo",
+      "name": "Boton Si No",
+      "iconUrl": "https://www.gstatic.com/images/branding/product/2x/data_studio_64dp.png",
+      "resource": {
+        "js": "https://TU-URL/index.js",
+        "config": "config.json"
+      },
+      "data": [
+        {
+          "id": "concept",
+          "label": "Datos",
+          "elements": [
+            {
+              "id": "identificador",
+              "label": "Identificador",
+              "type": "DIMENSION",
+              "options": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "id": "valorSiNo",
+              "label": "Valor Sí/No",
+              "type": "DIMENSION",
+              "options": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
